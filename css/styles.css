@@ -1,0 +1,229 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background: #fff;
+}
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: #404bbf;
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+  color: #404bbf;
+}
+
+/* header */
+.header {
+}
+.header-navigation {
+}
+.header-logo {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.header-logo-studio {
+  color: #2e2f42;
+}
+.header-menu-list {
+}
+.header-menu-item {
+}
+.header-menu-link {
+  color: #2e2f42;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+.address {
+  font-style: normal;
+}
+.header-address-list {
+}
+.header-address-item {
+}
+.header-address-link {
+  color: #434455;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+/* ----------- */
+
+/* -----main------ */
+.main {
+}
+/* -----hero------ */
+.hero {
+  background: var(--NAVY-BLUE, #2e2f42);
+}
+.hero-title {
+  color: var(--WHITE, #fff);
+  text-align: center;
+  font-family: inherit;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07; /* 107.143% */
+  letter-spacing: 0.02em;
+}
+.hero-order-btn {
+  background: #4d5ae5;
+  color: #fff;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.hero-order-btn:hover,
+.hero-order-btn:focus {
+  background: #404bbf;
+}
+
+/* ----------- */
+
+/* -----features------ */
+.features {
+}
+.features-list {
+}
+.features-item {
+}
+.features-subtitle {
+  color: #2e2f42;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
+}
+.features-text {
+  color: inherit;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+/* ----------- */
+
+/* ----- TEAM------ */
+.team {
+  background: #f4f4fd;
+}
+.team-title {
+  color: #2e2f42;
+  text-align: center;
+  font-family: inherit;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.team-list {
+}
+.team-list-item {
+  background-color: #ffffff;
+}
+.team-list-img {
+}
+.team-list-subtitle {
+  color: #2e2f42;
+  text-align: center;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
+}
+.team-list-text {
+  color: inherit;
+  text-align: center;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+/* ----------- */
+
+/* ----- PORTFOLIO------ */
+.portfolio {
+}
+.portfolio-title {
+  color: #2e2f42;
+  text-align: center;
+  font-family: inherit;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.portfolio-list {
+}
+.portfolio-item {
+}
+.portfolio-list-img {
+}
+.portfolio-subtitle {
+  color: #2e2f42;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
+}
+.portfolio-list-text {
+  color: inherit;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+/* ----------- */
+
+/* ----- Footer------ */
+
+.footer {
+  background: var(--NAVY-BLUE, #2e2f42);
+}
+.footer-logo {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.footer-logo-studio {
+  color: #f4f4fd;
+}
+.footer-text {
+  color: var(--CLOUD, #f4f4fd);
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+
+/* ----------- */
