@@ -94,9 +94,9 @@ img {
 .header-menu-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .header-menu-item {
-  padding: 24px 0;
 }
 .header-menu-link {
   color: #2e2f42;
@@ -130,14 +130,14 @@ img {
 }
 /* -----hero------ */
 .hero {
+  padding: 188px 0;
+  background: var(--NAVY-BLUE, #2e2f42);
 }
 .hero-container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-  background: var(--NAVY-BLUE, #2e2f42);
-  padding: 188px 0;
   gap: 48px;
   align-items: center;
 }
